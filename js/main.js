@@ -5,6 +5,9 @@ function toggleMenu() {
   menu.style.display = menu.style.display = "block";
   var item1 = document.getElementById("imagem1porra");
   item1.style.display = "flex";
+  var coloritem1 = document.getElementById("button-menu-item1");
+  coloritem1.classList.remove("menu-items-buttons-styles");
+  coloritem1.classList.add("menu-items-buttons-styles-active");
 }
 
 function closeMenu() {
@@ -24,15 +27,56 @@ function closeMenu() {
   item5.style.display = "none";
   var item6 = document.getElementById("imagem6porra");
   item6.style.display = "none";
-  //   setTimeout(function () {
-  // close.style.display = "none";
-  //   }, 10);
   console.log(close.classList);
+  var coloritem2 = document.getElementById("button-menu-item2");
+  coloritem2.classList.remove("menu-items-buttons-styles-active");
+  coloritem2.classList.add("menu-items-buttons-styles");
+
+  var coloritem3 = document.getElementById("button-menu-item3");
+  coloritem3.classList.remove("menu-items-buttons-styles-active");
+  coloritem3.classList.add("menu-items-buttons-styles");
+
+  var coloritem4 = document.getElementById("button-menu-item4");
+  coloritem4.classList.remove("menu-items-buttons-styles-active");
+  coloritem4.classList.add("menu-items-buttons-styles");
+
+  var coloritem5 = document.getElementById("button-menu-item5");
+  coloritem5.classList.remove("menu-items-buttons-styles-active");
+  coloritem5.classList.add("menu-items-buttons-styles");
+
+  var coloritem6 = document.getElementById("button-menu-item6");
+  coloritem6.classList.remove("menu-items-buttons-styles-active");
+  coloritem6.classList.add("menu-items-buttons-styles");
 }
 
 function menuItem1() {
   var item1 = document.getElementById("imagem1porra");
   item1.style.display = "flex";
+
+  var coloritem1 = document.getElementById("button-menu-item1");
+  coloritem1.classList.remove("menu-items-buttons-styles");
+  coloritem1.classList.add("menu-items-buttons-styles-active");
+
+  var coloritem2 = document.getElementById("button-menu-item2");
+  coloritem2.classList.remove("menu-items-buttons-styles-active");
+  coloritem2.classList.add("menu-items-buttons-styles");
+
+  var coloritem3 = document.getElementById("button-menu-item3");
+  coloritem3.classList.remove("menu-items-buttons-styles-active");
+  coloritem3.classList.add("menu-items-buttons-styles");
+
+  var coloritem4 = document.getElementById("button-menu-item4");
+  coloritem4.classList.remove("menu-items-buttons-styles-active");
+  coloritem4.classList.add("menu-items-buttons-styles");
+
+  var coloritem5 = document.getElementById("button-menu-item5");
+  coloritem5.classList.remove("menu-items-buttons-styles-active");
+  coloritem5.classList.add("menu-items-buttons-styles");
+
+  var coloritem6 = document.getElementById("button-menu-item6");
+  coloritem6.classList.remove("menu-items-buttons-styles-active");
+  coloritem6.classList.add("menu-items-buttons-styles");
+
   var item2 = document.getElementById("imagem2porra");
   item2.style.display = "none";
   var item3 = document.getElementById("imagem3porra");
@@ -50,6 +94,31 @@ function menuItem2() {
   item1.style.display = "none";
   var item2 = document.getElementById("imagem2porra");
   item2.style.display = "flex";
+
+  var coloritem1 = document.getElementById("button-menu-item1");
+  coloritem1.classList.remove("menu-items-buttons-styles-active");
+  coloritem1.classList.add("menu-items-buttons-styles");
+
+  var coloritem2 = document.getElementById("button-menu-item2");
+  coloritem2.classList.remove("menu-items-buttons-styles");
+  coloritem2.classList.add("menu-items-buttons-styles-active");
+
+  var coloritem3 = document.getElementById("button-menu-item3");
+  coloritem3.classList.remove("menu-items-buttons-styles-active");
+  coloritem3.classList.add("menu-items-buttons-styles");
+
+  var coloritem4 = document.getElementById("button-menu-item4");
+  coloritem4.classList.remove("menu-items-buttons-styles-active");
+  coloritem4.classList.add("menu-items-buttons-styles");
+
+  var coloritem5 = document.getElementById("button-menu-item5");
+  coloritem5.classList.remove("menu-items-buttons-styles-active");
+  coloritem5.classList.add("menu-items-buttons-styles");
+
+  var coloritem6 = document.getElementById("button-menu-item6");
+  coloritem6.classList.remove("menu-items-buttons-styles-active");
+  coloritem6.classList.add("menu-items-buttons-styles");
+
   var item3 = document.getElementById("imagem3porra");
   item3.style.display = "none";
   var item4 = document.getElementById("imagem4porra");
@@ -67,6 +136,31 @@ function menuItem3() {
   item2.style.display = "none";
   var item3 = document.getElementById("imagem3porra");
   item3.style.display = "flex";
+
+  var coloritem1 = document.getElementById("button-menu-item1");
+  coloritem1.classList.remove("menu-items-buttons-styles-active");
+  coloritem1.classList.add("menu-items-buttons-styles");
+
+  var coloritem2 = document.getElementById("button-menu-item2");
+  coloritem2.classList.remove("menu-items-buttons-styles-active");
+  coloritem2.classList.add("menu-items-buttons-styles");
+
+  var coloritem3 = document.getElementById("button-menu-item3");
+  coloritem3.classList.remove("menu-items-buttons-styles");
+  coloritem3.classList.add("menu-items-buttons-styles-active");
+
+  var coloritem4 = document.getElementById("button-menu-item4");
+  coloritem4.classList.remove("menu-items-buttons-styles-active");
+  coloritem4.classList.add("menu-items-buttons-styles");
+
+  var coloritem5 = document.getElementById("button-menu-item5");
+  coloritem5.classList.remove("menu-items-buttons-styles-active");
+  coloritem5.classList.add("menu-items-buttons-styles");
+
+  var coloritem6 = document.getElementById("button-menu-item6");
+  coloritem6.classList.remove("menu-items-buttons-styles-active");
+  coloritem6.classList.add("menu-items-buttons-styles");
+
   var item4 = document.getElementById("imagem4porra");
   item4.style.display = "none";
   var item5 = document.getElementById("imagem5porra");
@@ -84,6 +178,31 @@ function menuItem4() {
   item3.style.display = "none";
   var item4 = document.getElementById("imagem4porra");
   item4.style.display = "flex";
+
+  var coloritem1 = document.getElementById("button-menu-item1");
+  coloritem1.classList.remove("menu-items-buttons-styles-active");
+  coloritem1.classList.add("menu-items-buttons-styles");
+
+  var coloritem2 = document.getElementById("button-menu-item2");
+  coloritem2.classList.remove("menu-items-buttons-styles-active");
+  coloritem2.classList.add("menu-items-buttons-styles");
+
+  var coloritem3 = document.getElementById("button-menu-item3");
+  coloritem3.classList.remove("menu-items-buttons-styles-active");
+  coloritem3.classList.add("menu-items-buttons-styles");
+
+  var coloritem4 = document.getElementById("button-menu-item4");
+  coloritem4.classList.remove("menu-items-buttons-styles");
+  coloritem4.classList.add("menu-items-buttons-styles-active");
+
+  var coloritem5 = document.getElementById("button-menu-item5");
+  coloritem5.classList.remove("menu-items-buttons-styles-active");
+  coloritem5.classList.add("menu-items-buttons-styles");
+
+  var coloritem6 = document.getElementById("button-menu-item6");
+  coloritem6.classList.remove("menu-items-buttons-styles-active");
+  coloritem6.classList.add("menu-items-buttons-styles");
+
   var item5 = document.getElementById("imagem5porra");
   item5.style.display = "none";
   var item6 = document.getElementById("imagem6porra");
@@ -101,6 +220,31 @@ function menuItem5() {
   item4.style.display = "none";
   var item5 = document.getElementById("imagem5porra");
   item5.style.display = "flex";
+
+  var coloritem1 = document.getElementById("button-menu-item1");
+  coloritem1.classList.remove("menu-items-buttons-styles-active");
+  coloritem1.classList.add("menu-items-buttons-styles");
+
+  var coloritem2 = document.getElementById("button-menu-item2");
+  coloritem2.classList.remove("menu-items-buttons-styles-active");
+  coloritem2.classList.add("menu-items-buttons-styles");
+
+  var coloritem3 = document.getElementById("button-menu-item3");
+  coloritem3.classList.remove("menu-items-buttons-styles-active");
+  coloritem3.classList.add("menu-items-buttons-styles");
+
+  var coloritem4 = document.getElementById("button-menu-item4");
+  coloritem4.classList.remove("menu-items-buttons-styles-active");
+  coloritem4.classList.add("menu-items-buttons-styles");
+
+  var coloritem5 = document.getElementById("button-menu-item5");
+  coloritem5.classList.remove("menu-items-buttons-styles");
+  coloritem5.classList.add("menu-items-buttons-styles-active");
+
+  var coloritem6 = document.getElementById("button-menu-item6");
+  coloritem6.classList.remove("menu-items-buttons-styles-active");
+  coloritem6.classList.add("menu-items-buttons-styles");
+
   var item6 = document.getElementById("imagem6porra");
   item6.style.display = "none";
 }
@@ -118,6 +262,28 @@ function menuItem6() {
   item5.style.display = "none";
   var item6 = document.getElementById("imagem6porra");
   item6.style.display = "flex";
+
+  var coloritem1 = document.getElementById("button-menu-item1");
+  coloritem1.classList.remove("menu-items-buttons-styles-active");
+  coloritem1.classList.add("menu-items-buttons-styles");
+
+  var coloritem2 = document.getElementById("button-menu-item2");
+  coloritem2.classList.remove("menu-items-buttons-styles-active");
+  coloritem2.classList.add("menu-items-buttons-styles");
+
+  var coloritem3 = document.getElementById("button-menu-item3");
+  coloritem3.classList.remove("menu-items-buttons-styles-active");
+  coloritem3.classList.add("menu-items-buttons-styles");
+
+  var coloritem4 = document.getElementById("button-menu-item4");
+  coloritem4.classList.remove("menu-items-buttons-styles-active");
+  coloritem4.classList.add("menu-items-buttons-styles");
+
+  var coloritem5 = document.getElementById("button-menu-item5");
+  coloritem5.classList.remove("menu-items-buttons-styles-active");
+  coloritem5.classList.add("menu-items-buttons-styles");
+
+  var coloritem6 = document.getElementById("button-menu-item6");
+  coloritem6.classList.remove("menu-items-buttons-styles");
+  coloritem6.classList.add("menu-items-buttons-styles-active");
 }
-    
-  
