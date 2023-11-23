@@ -658,7 +658,7 @@ html {
 .div-body {
   display: block;
   height: max-content;
-  margin-top: 96px;
+  margin-top: 6rem;
 }
 
 .nav-bar-body {
@@ -1137,7 +1137,6 @@ html {
   font-size: 2.5rem;
 }
 
-
 .atendimento-grid {
   display: grid;
   width: 100%;
@@ -1177,7 +1176,7 @@ html {
   grid-row: 7 / 10;
 }
 
-.atendimento-link3 p{
+.atendimento-link3 p {
   color: #ffffff;
   word-wrap: break-word;
 }
@@ -1193,15 +1192,6 @@ html {
   margin-top: 4rem;
   font-size: 2.5rem;
   padding-left: 20%;
-}
-
-.redes-grid {
-  display: grid;
-  width: 100%;
-  height: 15rem;
-  margin-top: 0.5rem;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(13, 1fr);
 }
 
 .div-restante-redes nav a {
@@ -1240,3 +1230,57 @@ html {
 }
 
 /* footer css fim */
+
+/* about page */
+.div-about-content {
+  display: flex;
+  height: 15rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.div-about-content-text {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+
+
+.bold-text {
+  font-weight: bolder;
+}
+
+#button-home {
+  position: fixed;
+  background-color: rgb(232, 141, 141);
+  height: 2.5rem;
+  font-size: .7rem;
+  width: 2.5rem;
+  font-weight: bolder;
+  border-radius: 10px;
+  bottom: 15px;
+  right: 15px;
+  outline: none;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+
+#button-home:hover {
+  position: fixed;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  background-color:  rgb(232, 87, 87);
+  font-size: .9rem;
+  height: 3rem;
+  font-weight: bolder;
+  width: 3rem;
+  border-radius: 10px;
+  bottom: 15px;
+  right: 15px;
+  outline: none;
+  border: none;
+  transition: 100ms;
+}

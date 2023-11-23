@@ -287,3 +287,10 @@ function menuItem6() {
   coloritem6.classList.remove("menu-items-buttons-styles");
   coloritem6.classList.add("menu-items-buttons-styles-active");
 }
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
