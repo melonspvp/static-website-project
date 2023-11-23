@@ -30,13 +30,14 @@ html {
   font-size: 16px;
   font-family: "Ubuntu", sans-serif;
   scroll-behavior: smooth;
+  background-color: #3CA6A6;
 }
 
 .header {
   display: block;
   position: relative;
   height: 46.2rem;
-  background-image: url(/assets/background.jpg);
+  background-image: url(/assets/background2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-clip: padding-box;
@@ -179,7 +180,7 @@ html {
 .menu-sobreposto {
   display: none;
   position: absolute;
-  background-color: #dcdcdc;
+  background-color: #02A7C0; 
   z-index: 1000;
   border-radius: 10px;
   border: 1px solid rgba(93, 92, 91, 0.7);
@@ -737,7 +738,7 @@ html {
 .div-gallery {
   display: flex;
   width: 71.2rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .div-grid-galerry {
@@ -767,6 +768,7 @@ html {
   display: flex;
   width: 20rem;
   height: 18rem;
+  border-radius: 10px;
 }
 
 .div-grid-image-shape2 {
