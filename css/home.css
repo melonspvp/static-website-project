@@ -1,0 +1,102 @@
+@media (max-width: 600px)  {
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+}
+
+@media (min-width: 901px) {
+
+    .home-page {
+        display: grid;
+    background-image: url(../assets/background2.png);
+    background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+        height: 100vh;
+        grid-template-columns: repeat(90, 1fr);
+        grid-template-rows: repeat(50, 1fr);
+    }
+
+    .open-menu {
+        display: flex;
+        grid-column: 6 / 12;
+        grid-row: 4 / 6;
+        align-items: center;
+        font-size: 19px;
+        width: 90px;
+        padding-top: 3px;
+        background-color: transparent;
+        border: none;
+        border-radius: 30px;
+        justify-content: center;
+        transition: .3s ease-in-out;
+    }
+
+    .open-menu:hover {
+        background-color: #4b4b4b;
+  box-shadow: 0 0 20px rgba(93, 92, 91, 0.7);
+  border-radius: 10px;
+  color: #e8e8e8;
+    }
+
+    #menu-icon {
+        margin-bottom: 3px;
+    }
+    
+
+    .home-page h1 {
+        grid-column: 37 / 53;
+        font-size: 3rem;
+        grid-row: 3 / 7;
+    }
+
+    .person-link {
+        display: flex;
+        grid-column: 82 / 84;
+        grid-row: 4 / 6;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        transition: .3s ease-in-out;
+        border-radius: 30px;
+    }
+
+    .bag-link {
+        display: flex;
+        grid-column: 84 / 86;
+        grid-row: 4 / 6;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        border-radius: 30px;
+        transition: .3s ease-in-out;
+    }
+
+    .home-page a:hover {
+        background-color: #4b4b4b;
+        box-shadow: 0 0 20px rgba(93, 92, 91, 0.7);
+        border-radius: 10px;
+        color: #e8e8e8;
+    }
+
+    .menu-sobreposto {
+        display: grid;
+        grid-column: 1 / 35;
+        grid-row: 1 / 50;
+        border: 1px solid black;
+    }
+
+}   
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
