@@ -79,25 +79,6 @@
 }
 
 
-::-webkit-scrollbar {
-  width: 8px;
-  height: 2px; /* Largura da barra de rolagem */
-}
-
-::-webkit-scrollbar-track {
-  background-color: #f1f1f1; /* Cor de fundo da área de rastreamento */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgb(28, 28, 28); /* Cor da alça da barra de rolagem */
-  border-radius: 6px; 
-  /* Cantos arredondados da alça */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(28, 28, 28); /* Cor da alça ao passar o mouse */
-}
-
 .filter-div-pai {
   display: block;
   grid-column: 1 / 2;
