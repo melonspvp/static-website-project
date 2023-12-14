@@ -1,0 +1,411 @@
+
+@media (max-width: 600px) {
+  
+    .faq-content {
+        position: relative;
+        display: flex;
+        height: 100vh;
+        margin-top: 168px;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    .faq-content .faq-h3 {
+        margin-left: 20px;
+        margin-top: 50px;
+        color: #ffffff;
+    }
+    
+    .faq-content .faq-h2 {
+        margin-left: 20px;
+        margin-top: 30px;
+        font-size: 1.65rem;
+        color: #ffffff;
+    
+        
+    }
+    
+    .faq-content form {
+        position: relative;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 30px;
+        width: min-content;
+    }
+    
+    .faq-content input {
+        height: 40px;
+        width: 320px;
+        border-radius: 10px;
+        color: #ffffff;
+        border: none;
+    }
+    
+    .faq-content input:focus {
+        outline: none;
+    }
+    
+    .faq-content input::placeholder {
+        padding-left: 10px;
+    }
+    
+    #submit-faq-btn {
+        position: absolute;
+        z-index: 10;
+        right: 0;
+        border: none;
+        background-color: transparent;
+        margin-top: 6px;
+        color: #ffffff;
+    
+    }
+    
+    #search-faq {
+        color: black;
+    }
+    
+    .faq-elements {
+        display: flex;
+        background-color: #ffffff;
+        gap: 20px;
+        height: 100%;
+        margin-top: 50px;
+        grid-template-columns: repeat(30, 1fr);
+        grid-template-rows: repeat(15, 1fr)
+    }
+    
+    .faq-div-left {
+        display: flex;
+        grid-column: 5 / 11;    
+        grid-row: 2 / 15;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+      box-shadow: 0 0 10px rgba(107, 107, 107, 0.7);
+    
+    }
+    
+    .faq-div-left .manage,
+    .faq-div-right .manage {
+        display: flex;
+        height: 12.5%;
+        color: black;
+        align-items: center;
+        margin-left: 20px;
+        font-size: 1.3rem;
+    }
+    
+    
+    .faq-div-left ul,
+    .faq-div-right ul {
+        height: 100%;
+        margin-left: 30px; 
+        width: min-content;
+    }
+    
+    .faq-div-left ul li,
+    .faq-div-right ul li {
+        display: flex;
+        height: 14.2%;
+        align-items: center;
+        width: auto;
+        border-bottom: 1px solid grey;
+    }
+    
+    .faq-div-right {
+        display: flex;
+        flex-direction: column;
+        grid-column: 13 / 19;    
+        grid-row: 2 / 15;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      box-shadow: 0 0 10px rgba(107, 107, 107, 0.7);
+    }
+
+    .faq-div-left ul li a,
+    .faq-div-right ul li a {
+        text-decoration: none;
+        color: black;
+        transition: .3s ease-in-out;
+    }
+
+  }
+  
+  /* Tablet view: two columns */
+  @media (min-width: 601px) and (max-width: 900px) {
+    .faq-content {
+        position: relative;
+        display: flex;
+        height: 100vh;
+        margin-top: 168px;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    .faq-content .faq-h3 {
+        margin-left: 200px;
+        margin-top: 50px;
+        color: #ffffff;
+    }
+    
+    .faq-content .faq-h2 {
+        margin-left: 200px;
+        margin-top: 30px;
+        font-size: 2rem;
+        color: #ffffff;
+    
+        
+    }
+    
+    .faq-content form {
+        position: relative;
+        display: flex;
+        margin-left: 200px;
+        margin-top: 30px;
+        width: min-content;
+    }
+    
+    .faq-content input {
+        height: 40px;
+        width: 400px;
+        border-radius: 10px;
+        color: #ffffff;
+        border: none;
+    }
+    
+    .faq-content input:focus {
+        outline: none;
+    }
+
+    .faq-content input::placeholder {
+        padding-left: 10px;
+    }
+    
+    
+    #submit-faq-btn {
+        position: absolute;
+        z-index: 10;
+        right: 0;
+        border: none;
+        background-color: transparent;
+        margin-top: 6px;
+        color: #ffffff;
+    
+    }
+    
+    #search-faq {
+        color: black;
+    }
+    
+    .faq-elements {
+        display: grid;
+        background-color: #ffffff;
+        height: 100%;
+        margin-top: 50px;
+        grid-template-columns: repeat(30, 1fr);
+        grid-template-rows: repeat(15, 1fr)
+    }
+    
+    .faq-div-left {
+        display: flex;
+        grid-column: 5 / 14;    
+        grid-row: 2 / 15;
+        border-radius: 10px;
+        flex-direction: column;
+      box-shadow: 0 0 10px rgba(107, 107, 107, 0.7);
+    
+    }
+    
+    .faq-div-left .manage,
+    .faq-div-right .manage {
+        display: flex;
+        height: 12.5%;
+        color: black;
+        align-items: center;
+        margin-left: 30px;
+    
+    }
+    
+    
+    .faq-div-left ul,
+    .faq-div-right ul {
+        height: 100%;
+        margin-left: 30px; 
+        width: 100%;
+    }
+    
+    .faq-div-left ul li,
+    .faq-div-right ul li {
+        display: flex;
+        height: 14.2%;
+        align-items: center;
+    }
+    
+    .faq-div-right {
+        display: flex;
+        flex-direction: column;
+        grid-column: 16 / 25;    
+        grid-row: 2 / 15;
+        border-radius: 10px;
+      box-shadow: 0 0 10px rgba(107, 107, 107, 0.7);
+    }
+
+    .faq-div-left ul li a,
+    .faq-div-right ul li a {
+        text-decoration: none;
+        color: black;
+        transition: .3s ease-in-out;
+    }
+   
+  }
+  
+  /* Desktop view: three columns */
+  @media (min-width: 901px) {
+  
+    .faq-content {
+        position: relative;
+        display: flex;
+        height: 100vh;
+        margin-top: 168px;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    .faq-content .faq-h3 {
+        margin-left: 200px;
+        margin-top: 50px;
+        color: #ffffff;
+    }
+    
+    .faq-content .faq-h2 {
+        margin-left: 200px;
+        margin-top: 30px;
+        font-size: 2rem;
+        color: #ffffff;
+    
+        
+    }
+    
+    .faq-content form {
+        position: relative;
+        display: flex;
+        margin-left: 200px;
+        margin-top: 30px;
+        width: min-content;
+    }
+    
+    .faq-content input {
+        height: 40px;
+        width: 400px;
+        border-radius: 10px;
+        color: #ffffff;
+        border: none;
+    }
+    
+    .faq-content input:focus {
+        outline: none;
+    }
+
+    .faq-content input::placeholder {
+        padding-left: 10px;
+    }
+    
+    
+    #submit-faq-btn {
+        position: absolute;
+        z-index: 10;
+        right: 0;
+        border: none;
+        background-color: transparent;
+        margin-top: 6px;
+        color: #ffffff;
+    
+    }
+    
+    #search-faq {
+        color: black;
+    }
+    
+    .faq-elements {
+        display: grid;
+        background-color: #ffffff;
+        height: 100%;
+        margin-top: 50px;
+        grid-template-columns: repeat(30, 1fr);
+        grid-template-rows: repeat(15, 1fr)
+    }
+    
+    .faq-div-left {
+        display: flex;
+        grid-column: 5 / 11;    
+        grid-row: 2 / 15;
+        border-radius: 10px;
+        flex-direction: column;
+      box-shadow: 0 0 10px rgba(107, 107, 107, 0.7);
+    
+    }
+    
+    .faq-div-left .manage,
+    .faq-div-right .manage {
+        display: flex;
+        height: 12.5%;
+        color: black;
+        align-items: center;
+        margin-left: 30px;
+    
+    }
+    
+    
+    .faq-div-left ul,
+    .faq-div-right ul {
+        height: 100%;
+        margin-left: 30px; 
+        width: 100%;
+    }
+    
+    .faq-div-left ul li,
+    .faq-div-right ul li {
+        display: flex;
+        height: 14.2%;
+        align-items: center;
+    }
+    
+    .faq-div-right {
+        display: flex;
+        flex-direction: column;
+        grid-column: 13 / 19;    
+        grid-row: 2 / 15;
+        border-radius: 10px;
+      box-shadow: 0 0 10px rgba(107, 107, 107, 0.7);
+    }
+    
+    .faq-div-left ul li a,
+    .faq-div-right ul li a {
+        text-decoration: none;
+        color: black;
+        transition: .3s ease-in-out;
+    }
+
+    .faq-div-left ul li a:visited,
+    .faq-div-right ul li a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    .faq-div-left ul li a:hover,
+    .faq-div-right ul li a:hover {
+        text-decoration: none;
+        color: red;
+    }
+
+    .faq-div-left ul li a:active,
+    .faq-div-right ul li a:active {
+        text-decoration: none;
+        color: red;
+    }
+
+  }

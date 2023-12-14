@@ -36,9 +36,6 @@
 }
 
 @media (max-width: 600px) {
-  .shapes-grid {
-    grid-template-columns: 0.3fr 1fr;
-  }
 
   .search-bar {
     display: none;
