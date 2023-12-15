@@ -110,7 +110,7 @@
   }
 
   .home-page h1 {
-    grid-column: 37 / 53;
+    grid-column: 39 / 52;
     font-size: 3rem;
     grid-row: 3 / 7;
   }
@@ -139,7 +139,8 @@
     transition: 0.3s ease-in-out;
   }
 
-  .home-page a:hover {
+  .person-link:hover,
+  .bag-link:hover {
     background-color: #4b4b4b;
     box-shadow: 0 0 20px rgba(93, 92, 91, 0.7);
     border-radius: 10px;
@@ -147,11 +148,11 @@
   }
 
   .menu-sobreposto {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(45, 1fr);
     grid-template-rows: repeat(45, 1fr);
     grid-column: 1 / 35;
-    grid-row: 1 / 50;
+    grid-row: 1 / 51;
     border: 1px solid black;
     background-color: #ffffff;
     height: 100vh;
@@ -179,40 +180,95 @@
     color: #e8e8e8;
   }
 
-  .home-img-btn1 {
+.home-img-btn {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(93, 92, 91, 0.7);
+}
+
+.home-img-btn-active {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(150, 150, 150);
+    box-shadow: 0 0 20px rgba(93, 92, 91, 0.7);
+}
+
+  #home-img-btn1 {
     grid-column: 5 / 21;
     grid-row: 12 / 14;
   }
 
-  .home-img-btn2 {
+  #home-img-btn2 {
     grid-column: 25 / 41;
     grid-row: 12 / 14;
   }
 
 
-  .home-img-btn3 {
+  #home-img-btn3 {
     grid-column: 5 / 21;
     grid-row: 16 / 18;
   }
 
 
-  .home-img-btn4 {
+  #home-img-btn4 {
     grid-column: 25 / 41;
     grid-row: 16 / 18;
   }
 
 
-  .home-img-btn5 {
+  #home-img-btn5 {
     grid-column: 5 / 21;
     grid-row: 20 / 22;
   }
 
 
-  .home-img-btn6 {
+  #home-img-btn6 {
     grid-column: 25 / 41;
     grid-row: 20 /22;
   }
 
+  .sobreposto-images {
+    display: flex;
+    position: relative;
+    grid-column: 5 / 41;
+    grid-row: 25 / 41;
+    border: 1px solid black;
+  }
+
+  .menu-img-link {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 514.38px;
+    height: 291.4px;
+    border-radius: 10px;
+  }
+
+  .menu-img-link img {
+    width: 400px;
+    height: 250px;
+  }
+
+  #menu-img-link1 {
+    display: flex;
+  }
+
+  #menu-img-link3 img {
+    height: 200px;
+    width: 200px;
+  }
+
+.selected-button {
+    background-color: black;
+}  
+
+.div-sell-messege {
+    display: flex;
+    grid-column: 10 /27;
+    grid-row: 25 / 45;
+}
 
 }
 
